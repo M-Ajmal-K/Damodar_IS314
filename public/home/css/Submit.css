@@ -1,0 +1,14 @@
+.Submitted{
+    margin-top: 85px;
+    margin-left: 500px;
+    border-style: outset;
+    height: 375px;
+    width: 500px;
+    text-align: center;
+    background: red;
+    color: white;
+}
+
+h1{
+    padding-top: 135px;
+}

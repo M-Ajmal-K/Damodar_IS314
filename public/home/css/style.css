@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+.mainBody{
+    background: rgb(36, 0, 0);
+    background: linear-gradient(90deg, rgb(36, 0, 0) 0%, rgb(121, 9, 9) 35%, rgb(255, 0, 0) 100%);
+    
+}
+header {
+    margin-left: 10%;
+    margin-right: 15%;
+}
+li{
+    display: inline-block;
+    margin-left: 2px;
+    position: relative;
+}
+
+a{
+    padding: 40px;
+}
+
+.cart-img{
+ width: 20px;
+}
+div.menu{
+
+    align-items: center;
+    background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    margin-left: -13%;
+    padding-top: 0%;
+    padding-bottom: 70px;
+    width: 1499px;
+}
+ul{
+    margin-bottom: -30px;
+    display: block;
+    max-width: 1095px;
+    margin-left: 251px;
+    margin-top: auto;
+    
+}
+img{
+    margin-top: 0%;
+    max-width: 200px;
+}
+
+div.body{
+    border: 2px solid;
+    background: linear-gradient(90deg, rgb(36, 0, 0) 0%, rgb(121, 9, 9) 35%, rgb(175 38 38) 100%);
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-right: 735px;
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrate', sans-serif;
+    font-size: 20px;
+}
+
+#nav a:hover{
+    background-color: red;
+    color: white;
+}
+
+.active{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+.items{
+    background-color: white;
+    margin: 20px;
+    float: left;
+    display: block;
+    margin-top: 29px;
+    padding-top: 27px;
+    border-style: outset;
+    border-width: 3px;
+    width: 184px;
+    
+}
+section{
+    margin: 20px;
+    width: 1100x;
+}
+.list{
+    height: 1235px;
+    background-color: #6a1a1a;
+    margin-top: 10px;
+    margin-left: -11px;
+    padding-left: 11px;
+    width: 737px;
+}
+
+.itemName{
+    text-align: center;
+}
+.img{
+    width: 100px;
+    height: 120px;
+}
+
+.viewOrder{
+    border: 2px solid white;
+    margin-top: -1335px;
+    padding: -56px;
+    text-align: center;
+    width: 561px;
+    height: 70px;
+    margin-left: 754px;
+    color: white;
+}
+
+.order{
+    color: white;
+    margin-left: 759px;
+    border: 1px solid black;
+    background-color: #00000045;
+    width: 557px;
+    height: 426px;
+}
+
+table, th, tr{
+    text-align: left;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.buttons{
+    padding-left: 1250px;
+    padding-bottom: 10px;
+}
+.btn_register, .btn_login{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    padding-right: 22px;
+    width: 100px;
+    color: white;
+    background-color: red;
+}
+
+.btn_register:hover, .btn_login:hover{
+    background-color: rgb(104, 9, 9);
+}
